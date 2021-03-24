@@ -110,11 +110,11 @@ public class FXMLController {
     	System.out.print("SONO QUA");
     	Map<Corso, Integer> corsiIscrizioni = this.model.getIscrittiByPeriodo(periodo);
     	System.out.print("ORA QUA");
-    	/*for(Corso c: corsiIscrizioni.keySet()) {
+    	for(Corso c: corsiIscrizioni.keySet()) {
     		txtRisultato.appendText(c.toString());
     		Integer n = corsiIscrizioni.get(c);
     		txtRisultato.appendText("\t" +n + "\n");
-    	}*/
+    	}
     }
 
     @FXML
